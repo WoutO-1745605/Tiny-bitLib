@@ -10,7 +10,7 @@ namespace neopixel {
 
 // disable Jacdac single wire serial on pin 12
 // as neopixel are already mounted on this pin
-namespace userconfig { export const PIN_JACK_TX = 0xdead }
+namespace userconfig { export const PIN_JACK_TX = 0x0c }
 
 namespace modules {
     /**
