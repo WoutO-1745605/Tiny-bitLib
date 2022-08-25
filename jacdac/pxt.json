@@ -5,7 +5,7 @@
         "core": "*",
         "microphone": "*",
         "tiny-bitlib": "github:YahboomTechnology/tiny-bitlib",
-        "jacdac": "github:microsoft/pxt-jacdac",
+        "jacdac": "github:wout-o/pxt-jacdac",
         "jacdac-reflected-light": "github:microsoft/pxt-jacdac/reflected-light#v0.10.53",
         "jacdac-led-server": "github:microsoft/pxt-jacdac/led-server#v0.10.53",
         "jacdac-distance": "github:microsoft/pxt-jacdac/distance#v0.10.53",
