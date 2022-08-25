@@ -6,11 +6,11 @@
         "microphone": "*",
         "tiny-bitlib": "github:YahboomTechnology/tiny-bitlib",
         "jacdac": "github:wout-o/pxt-jacdac",
-        "jacdac-reflected-light": "github:wout-o/pxt-jacdac/reflected-light#v0.10.53",
-        "jacdac-led-server": "github:wout-o/pxt-jacdac/led-server#v0.10.53",
-        "jacdac-distance": "github:wout-o/pxt-jacdac/distance#v0.10.53",
-        "jacdac-sound-level": "github:wout-o/pxt-jacdac/sound-level#v0.10.53",
-        "jacdac-dual-motors": "github:wout-o/pxt-jacdac/dual-motors#v0.10.53"
+        "jacdac-reflected-light": "github:wout-o/pxt-jacdac/reflected-light",
+        "jacdac-led-server": "github:wout-o/pxt-jacdac/led-server",
+        "jacdac-distance": "github:wout-o/pxt-jacdac/distance",
+        "jacdac-sound-level": "github:wout-o/pxt-jacdac/sound-level",
+        "jacdac-dual-motors": "github:wout-o/pxt-jacdac/dual-motors"
     },
     "files": [
         "main.ts",
