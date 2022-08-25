@@ -142,7 +142,7 @@ namespace servers {
             pins.setPull(DigitalPin.P12, PinPullMode.PullNone)
             setPwmMotor(CAR_STOP, 0, 0)
 
-            const ledServer = new jacdac.LedServer(2, jacdac.LedPixelLayout.RgbGrb,
+            /*const ledServer = new jacdac.LedServer(2, jacdac.LedPixelLayout.RgbGrb,
                 (pixels, brightness) =>
                     light.sendWS2812BufferWithBrightness(pixels, DigitalPin.P12, brightness)
                 ,
@@ -155,12 +155,12 @@ namespace servers {
                     console.log(pixels.toHex() + " " + brightness)
                     setPwmRGB(pixels[0], pixels[1], pixels[2], brightness)
                 }, {
-                variant: jacdac.LedVariant.Stick
-            }
-            )
+                    variant: jacdac.LedVariant.Stick
+                }
+            )*/
             const servers: jacdac.Server[] = [
                 new DualMotorsServer(),
-                ledServer,
+                /*ledServer,
                 pwmLedServer,
                 jacdac.createSimpleSensorServer(jacdac.SRV_REFLECTED_LIGHT,
                     jacdac.ReflectedLightRegPack.Brightness,
@@ -189,7 +189,7 @@ namespace servers {
                         return isNaN(r) ? undefined : r
                     }, {
                     streamingInterval: 100
-                })
+                })*/
             ]
             return servers
         })
