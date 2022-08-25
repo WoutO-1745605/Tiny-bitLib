@@ -5,14 +5,12 @@
         "core": "*",
         "microphone": "*",
         "tiny-bitlib": "github:YahboomTechnology/tiny-bitlib",
-        "jacdac": "github:wout-o/pxt-jacdac",
+        "jacdac": "github:wout-o/pxt-jacdac#v0.10.53",
         "jacdac-reflected-light": "github:microsoft/pxt-jacdac/reflected-light#v0.10.53",
         "jacdac-led-server": "github:microsoft/pxt-jacdac/led-server#v0.10.53",
         "jacdac-distance": "github:microsoft/pxt-jacdac/distance#v0.10.53",
         "jacdac-sound-level": "github:microsoft/pxt-jacdac/sound-level#v0.10.53",
-        "jacdac-dual-motors": "github:microsoft/pxt-jacdac/dual-motors#v0.10.53",
-        "jacdac-gamepad": "github:microsoft/pxt-jacdac/gamepad#v1.8.20",
-        "jacdac-accelerometer": "github:microsoft/pxt-jacdac/accelerometer#v1.8.20"
+        "jacdac-dual-motors": "github:microsoft/pxt-jacdac/dual-motors#v0.10.53"
     },
     "files": [
         "main.ts",
