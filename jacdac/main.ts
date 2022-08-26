@@ -19,41 +19,41 @@ namespace modules {
     //% fixedInstance whenUsed block="yahboom motors"
     export const yahboomMotors = new DualMotorsClient("yahboom motors?dev=self")
 
-    /**
-     * Yahboom back LEDs
-     */
-    //% fixedInstance whenUsed block="yahboom back leds"
-    export const yahboomBackLeds = new LedClient("yahboom back LEDs?dev=self&num_pixels=2&variant=Stick&srvo=0")
+    // /**
+    //  * Yahboom back LEDs
+    //  */
+    // //% fixedInstance whenUsed block="yahboom back leds"
+    // export const yahboomBackLeds = new LedClient("yahboom back LEDs?dev=self&num_pixels=2&variant=Stick&srvo=0")
 
-    /**
-     * Yahboom front LEDs
-     */
-    //% fixedInstance whenUsed block="yahboom front leds"
-    export const yahboomFrontLeds = new LedClient("yahboom front LEDs?dev=self&num_pixels=1&variant=Stick&srvo=1&leds_per_pixel=2")
+    // /**
+    //  * Yahboom front LEDs
+    //  */
+    // //% fixedInstance whenUsed block="yahboom front leds"
+    // export const yahboomFrontLeds = new LedClient("yahboom front LEDs?dev=self&num_pixels=1&variant=Stick&srvo=1&leds_per_pixel=2")
 
-    /**
-     * Left line detector
-     */
-    //% fixedInstance whenUsed block="yahboom line left"
-    export const yahboomLineLeft = new ReflectedLightClient("yahboom line left?dev=self&variant=InfraredDigital&svro=0&name=LL")
+    // /**
+    //  * Left line detector
+    //  */
+    // //% fixedInstance whenUsed block="yahboom line left"
+    // export const yahboomLineLeft = new ReflectedLightClient("yahboom line left?dev=self&variant=InfraredDigital&svro=0&name=LL")
 
-    /**
-     * Left line detector
-     */
-    //% fixedInstance whenUsed block="yahboom line right"
-    export const yahboomLineRight = new ReflectedLightClient("yahboom line right?dev=self&variant=InfraredDigital&svro=1&name=LR")
+    // /**
+    //  * Left line detector
+    //  */
+    // //% fixedInstance whenUsed block="yahboom line right"
+    // export const yahboomLineRight = new ReflectedLightClient("yahboom line right?dev=self&variant=InfraredDigital&svro=1&name=LR")
 
-    /**
-     * Sonar sensor
-     */
-    //% fixedInstance whenUsed block="yahboom sonar"
-    export const yahboomSonar = new DistanceClient("yahboom sonar?dev=self&variant=sonar")
+    // /**
+    //  * Sonar sensor
+    //  */
+    // //% fixedInstance whenUsed block="yahboom sonar"
+    // export const yahboomSonar = new DistanceClient("yahboom sonar?dev=self&variant=sonar")
 
-    /**
-     * Microphone sound level sensor
-     */
-    //% fixedInstance whenUsed block="yahboom microphone"
-    export const yahboomMicrophone = new SoundLevelClient("yahboom microphone?dev=self")
+    // /**
+    //  * Microphone sound level sensor
+    //  */
+    // //% fixedInstance whenUsed block="yahboom microphone"
+    // export const yahboomMicrophone = new SoundLevelClient("yahboom microphone?dev=self")
 }
 
 namespace servers {
