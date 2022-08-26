@@ -1,5 +1,5 @@
 let k = 0
-// let dk = 10
+let dk = 10
 forever(() => {
 //     led.toggle(0, 0)
     modules.yahboomMotors.run(k, -k)
@@ -18,10 +18,10 @@ forever(() => {
 //     //   music.playTone(440, 100)
 //     console.logValue(`distance`, modules.yahboomSonar.distance())
 //     led.plotBarGraph(modules.yahboomMicrophone.soundLevel(), 100)
-//     pause(100)
-//     k += dk
-//     if (Math.abs(k) > 100)
-//         dk = -dk
+    pause(100)
+    k += dk
+    if (Math.abs(k) > 100)
+        dk = -dk
 })
 
 // control.runInBackground(() => {
