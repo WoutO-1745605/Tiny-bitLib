@@ -1,8 +1,8 @@
-// let k = 0
+let k = 0
 // let dk = 10
-// forever(() => {
+forever(() => {
 //     led.toggle(0, 0)
-//     modules.yahboomMotors.run(k, -k)
+    modules.yahboomMotors.run(k, -k)
 //     modules.yahboomBackLeds.setBrightness(99)
 //     modules.yahboomFrontLeds.setBrightness(99)
 //     modules.yahboomBackLeds.setAll(0x0000ff)
@@ -22,7 +22,7 @@
 //     k += dk
 //     if (Math.abs(k) > 100)
 //         dk = -dk
-// })
+})
 
 // control.runInBackground(() => {
 //     modules.yahboomBackLeds.onConnected(() => {
